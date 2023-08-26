@@ -41,7 +41,7 @@ body {
     margin: 0;
     max-width: 100%;
     overflow-x: hidden;
-    background-color: var(--background-color);
+    background-color: black;
     /* background-image: url("assets/imgs/animebg.png"); */
     background-size: cover;
     background-repeat: no-repeat;
