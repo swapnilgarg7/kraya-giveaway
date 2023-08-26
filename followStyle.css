@@ -53,43 +53,54 @@ body {
 }
 
 
-.ka {
-    color: var(--primary-color);
-    margin-top: 0.5rem;
-    margin-bottom: 1rem;
-}
-
-.anime {
-
-    font-size: 3.5rem;
-}
-
-.giveaway {
-    font-size: 1.9rem;
+.follow {
+    width: 10rem;
+    text-align: center;
+    font-size: 1.5rem;
     margin-bottom: 2rem;
+    position: relative;
 }
 
-.form-input {
-    background-color: var(--background-color);
-    color: #666;
-    border: 0px;
-    margin-bottom: 1.5rem;
-    font-family: "Poppins";
-    font-size: 1rem;
-    display: block;
-    width: 20rem;
-    padding: 1rem;
-    border-radius: 23px;
+.two {
+    position: absolute;
+    left: -3.2rem;
+    top: -3rem;
 }
 
-.arrow {
+.and {
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    color: gray;
+}
+
+.share {
+    width: 15rem;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+.three {
+    position: absolute;
+    right: -1.4rem;
+    top: -2rem;
+}
+
+.add {
+    background-color: var(--primary-color);
+    text-decoration: none;
+    color: black;
+    padding: 1.2rem 1.5rem 1rem 1.5rem;
+    border-radius: 82px;
+    font-size: 0.8rem;
     margin-top: 2rem;
-    margin-bottom: 2rem;
 }
 
 .privacy-text {
     font-family: "Poppins";
     font-size: 0.7rem;
     text-align: center;
+    margin-top: 5rem;
 
 }
