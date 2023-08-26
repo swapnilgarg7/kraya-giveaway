@@ -69,9 +69,56 @@ body {
     font-size: 1.9rem;
 }
 
-.merch-img {
+.container {
     margin-top: 2rem;
     margin-bottom: 2rem;
+    width: 206px;
+    overflow: hidden;
+
+}
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    animation: slide 7s infinite;
+}
+
+.merch-img {
+    width: 100%;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+
+    25% {
+        transform: translateX(0);
+    }
+
+    30% {
+        transform: translateX(-100%);
+    }
+
+    50% {
+        transform: translateX(-100%);
+    }
+
+    55% {
+        transform: translateX(-200%);
+    }
+
+    75% {
+        transform: translateX(-200%);
+    }
+
+    80% {
+        transform: translateX(-300%);
+    }
+
+    100% {
+        transform: translateX(-300%);
+    }
 }
 
 .subtext {
