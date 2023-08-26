@@ -1,0 +1,95 @@
+@font-face {
+    font-family: "Artega";
+    src: url("assets/fonts/artega.otf");
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("assets/fonts/poppins.otf");
+}
+
+:root {
+    --primary-color: #f2c747;
+    --secondary-color: #ffffff;
+    --accent-color: #302e2e;
+    --background-color: #1f1f1f;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Artega";
+    scroll-behavior: smooth;
+    color: #ffffff;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+*::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+* {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    max-width: 100%;
+    overflow-x: hidden;
+    background-color: var(--background-color);
+    /* background-image: url("assets/imgs/animebg.png"); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+
+.ka {
+    color: var(--primary-color);
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.anime {
+
+    font-size: 3.5rem;
+}
+
+.giveaway {
+
+    font-size: 1.9rem;
+}
+
+.merch-img {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.subtext {
+
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.money {
+    color: var(--primary-color);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.privacy-text {
+    font-family: "Poppins";
+    font-size: 0.7rem;
+    text-align: center;
+}
