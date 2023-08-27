@@ -37,7 +37,6 @@
 
 html,
 body {
-    height: 100%;
     margin: 0;
     max-width: 100%;
     overflow-x: hidden;
@@ -73,18 +72,21 @@ body {
     margin-top: 2rem;
     margin-bottom: 2rem;
     width: 206px;
+    height: 250px;
     overflow: hidden;
 
 }
 
 .wrapper {
     width: 100%;
+    height: 250px;
     display: flex;
     animation: slide 7s infinite;
 }
 
 .merch-img {
     width: 100%;
+    height: 250px;
 }
 
 @keyframes slide {
