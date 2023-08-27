@@ -88,6 +88,12 @@ body {
     border-radius: 23px;
 }
 
+.submit-btn {
+    background: transparent;
+    border: 0px;
+    width: 100%;
+}
+
 .arrow {
     margin-top: 2rem;
     margin-bottom: 2rem;

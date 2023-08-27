@@ -135,6 +135,10 @@ body {
     font-size: 2rem;
 }
 
+.arrow {
+    margin-bottom: 1rem;
+}
+
 .privacy-text {
     font-family: "Poppins";
     font-size: 0.7rem;
